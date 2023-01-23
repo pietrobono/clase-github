@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos de index.html */
+
+header{
+    width: 100%;
+}
+
+
+header .header__main{
+    background-image: url(../images/ventilacion-taller-mecanico.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+header .header__main .contenedor__texto{
+    margin: 250px;
+    text-align: center;
+    
+}
+
+header .header__main .contenedor__texto .texto__uno{
+    color: white;
+    font-size: 40px;
+}
+
+header .header__main .contenedor__texto .texto__dos{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+
+.contenedor__menumain{
+    position: sticky;
+    top: 0;
+}
+
+
+.contenedor__menumain nav{
+    background-color: black;
+}
+
+.contenedor__menumain nav .menu__main{
+    list-style: none;
+    text-align: center;
+}
+
+.contenedor__menumain nav .menu__main li{
+    display: inline-block;
+}
+
+.contenedor__menumain nav .menu__main li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: inline-block;
+
+}
+
+.contenedor__menumain nav .menu__main li a:hover{
+    background: #aaa;
+    color: #333;
+}
+
+.contenedor__main article{
+    margin: 20px 20px;
+    background: #ccc;
+    padding: 30px;
+}
+
+.contenedor__main article p{
+    margin: 30px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
+.copyright__main{
+    color: whitesmoke;
+    background-image: url(../images/metal-plate-floor-texture-pattern-in-industrial-plant-background-wallpaper-and-decoration-concept-3d-illustation-rendering-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vr;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* estilos de galeria.html */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.titulo--cuerpo__galeria{
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color: rgba(16, 1, 1, 0.751);
+}
+
+
+.cuerpo--galeria{
+    flex-wrap: wrap;
+    font-family: 'Heebo', sans-serif;
+}
+
+.cuerpo--imagenes{
+    background-color: rgba(16, 1, 1, 0.751);
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.cuerpo--imagenes__galeria{
+    flex-wrap: wrap;
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.cuerpo--imagenes__galeria img{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.imagen__galeria{
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    max-height: auto;
+    width: auto;
+}
+
+
+
+/* estilos de contactos.html */ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.encabezado__contactos{
+    text-align: center;
+}
+
+.titulo__encabezado{
+    background-color: #333;
+}
+
+.formulario__contactos{
+    text-align: center;
+    align-items: center;
+}
+
+
+/* estilos de sobre-nosotros.html */
+
+.header-sobrenosotros{
+    color: whitesmoke;
+    background-color: #333;
+    text-align: center;
+}
+
+#seccion{
+    background-image: url(../images/metal-plate-floor-texture-pattern-in-industrial-plant-background-wallpaper-and-decoration-concept-3d-illustation-rendering-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100vr;
+}
+
+
+.hijomain-sobrenosotros{
+    text-align: center;
+    background-color: rgba(52, 35, 35, 0.742);
+    color: whitesmoke;
+    gap: 10px;
+}
+
+.hijomain-sobrenosotrosparrafo{
+    color: white;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+/* estilos de ubicacion.html */
+
+.header__ubicacion{
+    color: whitesmoke;
+    background-color: #333;
+    text-align: center;
+}
+
+.main__ubicacion{
+    color: whitesmoke;
+    background-color: #333;
+}
+
+.seccion__ubicacion{
+    gap: 10px;
+    color: whitesmoke;
+    background-color: #333;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: azure;
+}
+
+a:active{
+    color: crimson;
+}
